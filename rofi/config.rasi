@@ -4,12 +4,12 @@ configuration{
     font: "JetBrainsMono Nerd Font 14";
     show-icons: true;
     icon-theme: "Papirus";
-    terminal: "alacritty";
+    terminal: "kitty";
     drun-display-format: "{icon} {name}";
     location: 7;
     yoffset: -65;
     xoffset: 20;
-    disable-history: false;
+    disable-history: true;
     hide-scrollbar: true;
     display-drun: "  Apps ";
     display-run: "  Run ";
