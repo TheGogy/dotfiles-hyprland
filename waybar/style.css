@@ -1,0 +1,139 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: 'Inter Medium',FontAwesome,'Mononoki Nerd Font';
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+	background: #0f0f0f;
+	border-radius: 15px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #262626;
+}
+
+tooltip label {
+  color: #1f1f1f;
+}
+
+#workspaces button {
+    padding: 5px 10px;
+    color: #cba6f7;
+    border-style: hidden;
+    font-size: 16px;
+}
+
+#workspaces button.focused {
+    color: #0f0f0f;
+    background-color: #c49ec4;
+    border-radius: 15px;
+}
+
+#workspaces button.urgent {
+    color: #0f0f0f;
+    background-color: #9ec3c4;
+    border-radius: 15px;
+}
+
+#workspaces button:hover {
+	background-color: #c49ec4;
+	color: #0f0f0f;
+	border-radius: 15px;
+}
+
+#custom-date, #custom-notification, #custom-media, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #temperature, #custom-cava, #custom-weather, #custom-cpu, #memory, #custom-nightlight {
+	background-color: #181825;
+	padding: 5px 10px;
+	margin: 5px 0px;
+}
+
+#custom-media, #battery{
+	color: #f9e2af;
+}
+
+#custom-notification{
+  color: #f38ba8;
+}
+
+#memory {
+  color: #f38ba8;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#tray {
+  padding-left: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#workspaces {
+	background-color: #1e1e2e;
+	border-radius: 15px 0px 0px 15px;
+}
+
+#custom-date {
+  color: #89dceb;
+}
+
+#clock {
+  color: #cba6f7;
+  border-radius: 0px 15px 15px 0px;
+  margin-right: 10px;
+}
+
+#network {
+	color: #fab387;
+	border-radius: 0px 0px 0px 0px;
+}
+
+#pulseaudio {
+	color: #a6e3a1;
+}
+
+#custom-weather.severe {
+  color: #eb937d;
+}
+
+#custom-weather.sunnyDay {
+  color: #c2ca76;
+}
+
+#custom-weather.clearNight, #custom-nightlight {
+  color: #5b5b5a;
+}
+
+#custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight {
+  color: #c2ddda;
+}
+
+#custom-weather.rainyDay, #custom-weather.rainyNight {
+  color: #5aaca5;
+}
+
+#custom-weather.showyIcyDay, #custom-weather.snowyIcyNight {
+  color: #d6e7e5;
+}
+
+#custom-weather.default {
+  color: #dbd9d8;
+}
+
+
+#custom-cpu{
+  color: #f38ba8;
+  border-radius: 15px 0px 0px 15px;	
+}
+
+#temperature{
+  color: #f38ba8;
+}
+
+#custom-media{
+  border-radius: 15px 0px 0px 15px;
+}

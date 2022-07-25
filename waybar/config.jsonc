@@ -1,0 +1,156 @@
+{
+  "gtk-layer-shell": false,
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "modules-left": ["wlr/workspaces", "tray"],
+  "modules-right": ["custom/media", "custom/weather", "network","pulseaudio", "battery", "custom/nightlight", "custom/date", "clock"],
+  "modules-center": ["custom/cpu", "temperature", "memory"],
+"wlr/workspaces": {
+  "disable-scroll": true,
+  "all-outputs": true,
+  "persistent_workspaces": {
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": []
+  },
+  "on-click": "activate",
+  "format": "{icon}",
+  "format-icons": {
+    "1": "一",
+    "2": "二",
+    "3": "三",
+    "4": "四",
+    "5": "五",
+    "6": "六",
+    "7": "七",
+    "8": "八",
+    "9": "九",
+    "10": "十",
+    "default": "一",
+    "tooltip": false
+//      "active": "●"
+    }
+    },
+"tray": {
+  "icon-size": 13,
+  "spacing": 10,
+  "tooltip": false
+},
+"custom/media": {
+      "format": "{icon} {}",
+      "interval": 1,
+      "format-icons": {
+          "spotify": " ",
+          "default": " "
+      },
+      "escape": true,
+      "exec": "/home/gogy/.config/waybar/mediaplayer.sh",
+      "tooltip": false,
+      "on-click": "playerctl play-pause"
+  },
+"custom/date": {
+  "format": "  {}",
+  "interval": 3600,
+  "exec": "/home/gogy/.config/waybar/waybar-date.sh",
+  "tooltip": false
+},
+"clock": {
+  "format": "  {:%I:%M %p} ",
+  "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  "tooltip": true
+},
+"network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "󰤮 Disconnected",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "󰤮 Disconnected",
+  "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+  "tooltip": true
+},
+"pulseaudio": {
+  "format": "{icon}  {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+      },
+      "on-click": "amixer -D pulse set Master +1 toggle",
+      "tooltip": false
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C {icon}",
+    "format": "{icon}&#8239;{temperatureC}°C",
+    "format-icons": ["", "", ""],
+    "tooltip": true
+},
+"memory": {
+  "interval": 30,
+  "format": "{}% ",
+  "max-length": 10
+},
+
+  "custom/cava": {
+    "format": "{}",
+//      "max-length": 40,
+    "exec": "/home/gogy/.config/waybar/cava.sh",
+    "tooltip": false
+
+  },
+  "custom/weather": {
+    "exec": "python ~/.config/waybar/weather.py",
+    "interval": 300,
+    "return-type": "json",
+    "tooltip-format": "{tooltip}",
+    "tooltip": true
+    // "format-alt": "{alt}",
+
+  },
+  "custom/cpu": {
+    "exec": "/home/gogy/.config/waybar/cpu_graphical 0.6",
+    "format": "CPU [ {} ]",
+    "tooltip-format": "{tooltip}",
+    "tooltip": true,
+    "return-type": "json"
+  },
+  "battery": {
+    "states": {
+        // "good": 95,
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-charging": " {capacity}%",
+    "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "tooltip": false
+  },
+  "custom/nightlight": {
+    "format": "",
+    "on-click": "~/.config/waybar/nightlight.sh",
+    "tooltip": false
+  }
+}
+

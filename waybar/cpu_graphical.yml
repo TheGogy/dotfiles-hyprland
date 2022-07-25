@@ -1,0 +1,15 @@
+states:
+  '':
+    threshold: 0
+    background: '#0f0f0f'
+    foreground: '#ffffff'
+  warning:
+    threshold: 70
+    background: '#0f0f0f'
+    foreground: '#ffa500'
+  critical:
+    threshold: 90
+    background: '#0f0f0f'
+    foreground: '#ff0000'
+memory:
+  cache_mix: 0.3
