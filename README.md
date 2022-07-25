@@ -22,8 +22,6 @@ cd dotfiles-hyprland
 rm -f rice-showcase* 
 rm -f README.md
 cp * ~/.config
-rm -f ~/.config/one_line_install.sh
-rm -f one_line_install.sh
 ```
 If you would like to use the moving background then go to `~/.config/hypr/hyprland.conf` and change line 211 to `exec-once=oguri`
 This will lead to a slightly longer boot time / higher memory usage but it uses surprisingly little CPU usage once everything is in memory.
