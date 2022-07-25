@@ -29,6 +29,7 @@ This will lead to a slightly longer boot time / higher memory usage but it uses 
 ## Keybinds
 
 #### Open programs
+```
 SUPER + return = Kitty
 SUPER + SHIFT + W = kill active window
 SUPER + SHIFT + T = Thunar
@@ -36,21 +37,31 @@ SUPER + SHIFT + R = Freetube
 SUPER + SHIFT + G = revolt
 SUPER + SHIFT + D = discord
 SUPER + SHIFT + V = VSCodium
+```
 
 #### Floating windows
+```
 SUPER + CTRL + V = toggle floating window
+```
 
 #### Screenshot
+```
 SUPER + SHIFT + S = take screenshot with grimshot
+```
 
 #### Lock screen / powermenu
+```
 SUPER + SHIFT + X = swaylock
 SUPER + SHIFT + C = powermenu
+```
 
 #### Rofi
+```
 SUPER + SPACE = rofi
+```
 
 #### Video / audio
+```
 XF86AudioRaiseVolume = +5% volume
 XF86AudioLowerVolume = -5% volume
 XF86AudioMute = toggle mute
@@ -62,30 +73,39 @@ XF86AudioPrev = go to prev. media
 XF86AudioNext = go to next media
 XF86KbdBrightnessUp = increase keyboard brightness (ONLY WORKS FOR ASUS KEYBOARDS. try changing the brand name if your keyboard is made by another company.)
 XF86KbdBrightnessDown = decrease keyboard brightness (also only for ASUS keyboards)
+```
 
 #### Move focus
+```
 SUPER + J = move focus left
 SUPER + L = move focus right
 SUPER + I = move focus up
 SUPER + J = move focus down
+```
 
 #### Move focused window
+```
 SUPER + SHIFT + J = move window left
 SUPER + SHIFT + L = move window right
 SUPER + SHIFT + I = move window up
 SUPER + SHIFT + K = move window down
+```
 
 #### Change focused workspace
+```
 SUPER + 1 = workspace 1
 SUPER + 2 = workspace 2
 ...
 SUPER + 10 = workspace 10
+```
 
 #### Move window to workspace
+```
 SUPER + SHIFT + ! = move to workspace 1
 SUPER + SHIFT + " = move to workspace 2
 ...
 SUPER + SHIFT + ) = move to workspace 10
+```
 ##### Note: I am using an en-GB keyboard. For anyone using a different keyboard layout then you might want to look at [this guide](https://github.com/hyprwm/Hyprland/wiki/Advanced-config#binds).
 
 
