@@ -26,6 +26,6 @@ rm -f ~/.config/one_line_install.sh
 rm -f one_line_install.sh
 ```
 If you would like to use the moving background then go to `~/.config/hypr/hyprland.conf` and change line 211 to `exec-once=oguri`
-This will lead to a slightly longer boot time / higher memory usage but it uses surprisingly little CPU onec everything is in memory.
+This will lead to a slightly longer boot time / higher memory usage but it uses surprisingly little CPU usage once everything is in memory.
 
 If anyone reads this little bit at the bottom of my dotfiles then thanks for reading! Hope you have a nice day c:
