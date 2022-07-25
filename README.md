@@ -16,7 +16,7 @@ These files will probably not be updated for a while, then suddenly get a lot of
 
 Change any of these commands as necessary. I'm using [paru](https://github.com/morganamilo/paru) as my AUR helper but you just need to install the dependencies.
 ```
-paru -S hyprland-git waybar-hyprland-git kitty mako oguri rofi wofi hyprpaper thunar freetube-bin vscodium-bin swaylock
+paru -S hyprland-git waybar-hyprland-git kitty mako oguri rofi wofi hyprpaper thunar freetube-bin vscodium-bin swaylock redshift-wayland-git
 git clone https://github.com/TheGogy/dotfiles-hyprland/
 cd dotfiles-hyprland
 rm -f rice-showcase* 
