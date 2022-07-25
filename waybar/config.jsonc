@@ -52,14 +52,14 @@
           "default": " "
       },
       "escape": true,
-      "exec": "/home/gogy/.config/waybar/mediaplayer.sh",
+      "exec": "~/.config/waybar/mediaplayer.sh",
       "tooltip": false,
       "on-click": "playerctl play-pause"
   },
 "custom/date": {
   "format": "  {}",
   "interval": 3600,
-  "exec": "/home/gogy/.config/waybar/waybar-date.sh",
+  "exec": "/~/.config/waybar/waybar-date.sh",
   "tooltip": false
 },
 "clock": {
@@ -108,7 +108,7 @@
   "custom/cava": {
     "format": "{}",
 //      "max-length": 40,
-    "exec": "/home/gogy/.config/waybar/cava.sh",
+    "exec": "~/.config/waybar/cava.sh",
     "tooltip": false
 
   },
@@ -122,7 +122,7 @@
 
   },
   "custom/cpu": {
-    "exec": "/home/gogy/.config/waybar/cpu_graphical 0.6",
+    "exec": "~/.config/waybar/cpu_graphical 0.6",
     "format": "CPU [ {} ]",
     "tooltip-format": "{tooltip}",
     "tooltip": true,
