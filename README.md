@@ -6,7 +6,7 @@ No guarantees that any of this works on your machine. If it doesn't, then please
 
 Also yes I know I should change it so that I no longer use rofi and only wofi, might do that sometime in the future.
 
-These files will probably not be updated for a while, then suddenly get a lot of updates at once. Please don't rely on them; just take what you need from here and have fun ricing.
+These files will probably not be updated for a while, although if they are then they might get a lot of updates at once. Please don't rely on them; just take what you need from here and have fun ricing.
 
 ## Showcase:
 ![Showcase 1](https://github.com/TheGogy/dotfiles-hyprland/blob/main/rice-showcase.png)
