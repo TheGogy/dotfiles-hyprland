@@ -1,6 +1,6 @@
 # dotfiles-hyprland
 A collection of my dotfiles for the Hyprland compositor for Wayland. Some of it looks kinda cool I guess.
-Sorry about not making this a bit more official looking, this is more of a place for me to store all this if I want to get this working on another device, and to share the files with my friends. Feel free to take anything. A lot of this is taken from other various dotfiles I have found and liked.
+Sorry about not making this a bit more official looking, this is more of a place for me to store all this if I want to get this working on another device, and to share the files with my friends. Feel free to take anything. A lot of this is taken from other various dotfiles I have found and liked. They're not particularly consistent but it's a config I like.
 
 No guarantees that any of this works on your machine. If it doesn't, then please don't bug me on it.
 
